@@ -40,7 +40,6 @@
             </form>
         </section>
         <section id="output">
-            <h3>Results</h3>
 <?php
         if (isset($_POST['dice_rolled'], $_POST['dice_selected'])) {
             for ($i=0; $i < $_POST['dice_rolled']; $i++) { 
